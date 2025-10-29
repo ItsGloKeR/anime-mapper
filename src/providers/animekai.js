@@ -1,7 +1,7 @@
 import { load } from 'cheerio';
 import { client } from '../utils/client.js';
 
-const DEFAULT_BASE = 'https://animekai.to';
+const DEFAULT_BASE = 'https://anikai.to;
 const KAISVA_URL = 'https://ilovekai.simplepostrequest.workers.dev'; // Cloudflare Worker decoder
 
 function fixUrl(url, base = DEFAULT_BASE) {
